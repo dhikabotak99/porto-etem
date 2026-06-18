@@ -4,7 +4,7 @@ import { useCountUp } from '../composables/useCountUp'
 
 const counterRef = ref(null)
 const { count: projects, startObserving: observeProjects } = useCountUp(10, { duration: 2000 })
-const { count: years, startObserving: observeYears } = useCountUp(5, { duration: 2000 })
+const { count: years, startObserving: observeYears } = useCountUp(3, { duration: 2000 })
 const { count: clients, startObserving: observeClients } = useCountUp(15, { duration: 2000 })
 const { count: techs, startObserving: observeTechs } = useCountUp(10, { duration: 2000 })
 
